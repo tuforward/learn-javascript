@@ -551,3 +551,175 @@ howManyStickers(3) ➞ 54
     - Mỗi mặt có n * n nhãn dán.
 ```
 
+### Câu 28: 50-30-20 Strategy (Chiến lược 50-30-20)
+
+- Đề bài:
+    - Chiến lược 50-30-20 là một cách đơn giản để quản lý tài chính, bao gồm chi tiêu 50% thu nhập cho nhu cầu cần thiết, 30% thu nhập cho sở thích cá nhân và 20% thu nhập cho tiết kiệm.
+
+    - Viết một hàm nhập vào số tiền thu nhập sau đó tính toán và trả về một đối tượng để thể hiện số tiền một người cần phải chi tiêu cho nhu cầu cần thiết, sở thích cá nhân và tiết kiệm.
+
+**Ví dụ:**
+```
+fiftyThirtyTwenty(10000)
+➞ { "Needs": 5000, "Hobby": 3000, "Savings": 2000 }
+
+fiftyThirtyTwenty(50000)
+➞ { "Needs": 25000, "Hobby": 15000, "Savings": 10000 }
+
+fiftyThirtyTwenty(13450)
+➞ { "Needs": 6725, "Hobby": 4035, "Savings": 2690 }
+```
+
+### Câu 29: Nth Star Number (Số sao thứ N)
+
+- Đề bài:
+    - Tạo một hàm nhận vào một số nguyên dương n và trả về số "sao" thứ n.
+
+    <img src="29.star.PNG">
+    
+**Ví dụ:**
+```
+starNumber(2) ➞ 13
+// n = 2
+// số "sao" thứ 2 = 13
+
+starNumber(3) ➞ 37
+// n = 3
+// số "sao" thứ 3 = 37
+
+starNumber(5) ➞ 121
+// n = 5
+// số "sao" thứ 5 = 121
+```
+
+**Ghi chú:**
+```
+    - n sẽ luôn là một số nguyên dương.
+    - Công thức tính số sao thứ n có thể được biểu diễn bởi công thức: **6n(n-1) + 1**.
+```
+
+### Câu 30: Lãi kép
+
+- Đề bài:
+    - Giả sử bạn đầu tư $10,000 trong 10 năm với mức lãi suất 6% được cộng dồn hàng tháng. Giá trị của khoản đầu tư của bạn sẽ là bao nhiêu vào cuối giai đoạn 10 năm?
+
+    - Tạo một hàm nhận vào số vốn ban đầu **p**, thời gian đầu tư trong **t** năm, tỷ lệ lãi suất **r** và số lần tính lãi trong một năm **n**. Hàm trả về giá trị vào cuối kỳ.
+
+    - Làm tròn đến 2 chữ số sau dấu thập phân.
+
+**Ví dụ:**
+```
+Thứ tự tham số chuyền vào: compoundInterest(p, t, r, n)
+
+compoundInterest(10000, 10, 0.06, 12) ➞ 18193.97
+
+compoundInterest(100, 1, 0.05, 1) ➞ 105
+
+compoundInterest(3500, 15, 0.1, 4) ➞ 15399.26
+
+compoundInterest(100000, 20, 0.15, 365) ➞ 2007316.26
+```
+
+**Công thức tính lãi kép là:**
+<img src="30.laiiikep.PNG">
+
+
+### Câu 31: The Farm Problem (Vấn đề trang trại)
+- Đề bài:
+    - Viết một hàm để tính tổng số chân của tất cả các loài động vật mà một nông dân nuôi. Nông dân này nuôi ba loài động vật:
+        - Gà (chickens) = 2 chân
+        - Bò (cows) = 4 chân
+        - Lợn (pigs) = 4 chân
+
+    - Nông dân đã đếm số lượng động vật của mình và cung cấp cho bạn số lượng của từng loài. Bạn cần viết một hàm để trả về tổng số chân của tất cả các loài động vật.
+
+```
+animals(2, 3, 5) ➞ 36
+
+animals(1, 2, 3) ➞ 22
+
+animals(5, 2, 8) ➞ 50
+```
+
+**Ghi chú:**
+```
+    - Thứ tự của các loài động vật được truyền vào là animals(chickens, cows, pigs).
+    - Nông dân muốn biết tổng số chân và không phải tổng số động vật.
+```
+
+### Câu 32: Chuyển đổi tuổi sang ngày
+- Đề bài: Tạo một hàm nhận vào tuổi của một người tính bằng năm và trả về tuổi tính bằng ngày.
+
+```
+calcAge(65) ➞ 23725
+
+calcAge(0) ➞ 0
+
+calcAge(20) ➞ 7300
+```
+
+**Ghi chú:**
+```
+    Trong bài toán này, 1 năm có 365 ngày.
+```
+
+
+### Câu 33: Khủng hoảng thế kỷ
+- Đề bài:
+    - Các nhà khoa học đã phát hiện ra rằng trong bốn thập kỷ nữa, thế giới sẽ Bùng nổ! Cũng sẽ mất ba thập kỷ để chế tạo một con tàu vũ trụ du hành đến một hành tinh mới có thể chứa toàn bộ dân số thế giới.
+    
+    - Bạn phải tính tổng số người sau ba thập kỷ nữa.
+        - Biến **population** là dân số thế giới hiện nay.
+
+        - Giả sử mỗi tháng, có **n** người được sinh ra thêm.
+
+    - Trả về tổng số người khi tàu vũ trụ hoàn thành.   
+
+```
+futurePeople(population, n)
+
+futurePeople(256, 2) ➞ 976
+
+futurePeople(3248, 6) ➞ 5408
+
+futurePeople(5240, 3) ➞ 6320
+```
+
+**Ghi chú:**
+```
+    Số phận của nhân loại nằm trong tính toán của bạn.
+```
+
+### Câu 34: Xếp chồng các hộp
+- Đề bài:
+    - Dưới đây là hình ảnh của bốn mô hình. Một số hộp lập phương bị ẩn sau các hộp khác. Mô hình một bao gồm một hộp. Mô hình hai bao gồm bốn hộp, và tiếp tục như vậy…
+
+    <img src="34.box.PNG">
+
+    - Viết một hàm nhận vào một số n và trả về số lượng hộp đã xếp chồng trong một mô hình có chiều cao n cấp độ (Đếm tất cả các hộp: thể nhìn thấy và không nhìn thấy).
+
+```
+stackBoxes(1) ➞ 1
+
+stackBoxes(2) ➞ 4
+
+stackBoxes(0) ➞ 0
+```
+
+**Ghi chú:**
+```
+    n là một số nguyên dương.
+```
+
+### Câu 35: Viết hàm Nói lắp
+- Đề bài:
+    - Viết một hàm làm giật từ như khi ai đó gặp khó khăn trong việc đọc nó. Hai ký tự đầu tiên được lặp lại hai lần với dấu ba chấm ... và khoảng trắng sau mỗi ký tự, và sau đó là từ được phát âm.
+
+```
+stutter("Bạn có khỏe không?") ➞ "Bạ... Bạ... Bạn có khỏe không?"
+
+stutter("Tôi khỏe.") ➞ "Tô... Tô... Tôi khỏe."
+
+stutter("Đây là đâu?") ➞ "Đâ... Đâ... Đây là đâu?"
+```
+
