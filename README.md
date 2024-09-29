@@ -114,3 +114,51 @@ var value2 = "two";
 var value1 = "one";
 var value2 = "two";
 ```
+- Đáp án:
+    - Giả sử:
+        - Svt: Diện tích hình vuông to
+        - Svn: Diện tích hình vuông nhỏ
+    - Ta có:
+        - Diện tích hình vuông to: Svt = 2R * 2R = 4R^2
+
+            <img src="06.hinh-vuong-to.PNG.PNG"> 
+            
+        - Diện tích hình vuông nhỏ: Svn = 2 * (1/2 * R * 2R) = 2R^2
+            
+            <img src="06.hinh-vuong-nho.PNG.PNG.PNG"> 
+            
+    - Vậy:
+        - S = Svt - Svn = 4R^2 - 2R^2 = 2R^2
+
+### Câu 07: Kiểm tra xem một chuỗi có phải là palindrome hay không?
+
+Đề bài: Palindrome là từ khi đọc ngược cũng như đọc xuôi.
+
+Ví dụ:
+```
+palindrome("cicic") --> true
+
+palindrome("solos") --> true
+
+palindrome("test") --> false
+
+palindrome("hello") --> false
+
+palindrome("rotavator") --> true
+```
+
+### Câu 08: Data Types (Kiểu dữ liệu)
+
+Đề bài: Phỏng đoán kết quả của console.log().
+
+```
+console.log(typeof "Le Van A");
+console.log(typeof 5000);
+console.log(typeof 5000.99);
+console.log(typeof [10, 15, 17]);
+console.log(typeof { name: "Le Van A", age: 18, country: "Viet Nam" });
+console.log(typeof true);
+console.log(typeof false);
+console.log(typeof undefined);
+console.log(typeof null);
+```
