@@ -4,7 +4,7 @@
 
 Đề bài: Tính toán các phép tính sau và phỏng đoán kết quả của console.log().
 
-```
+```javascript
 var x = 5;
 var y = 3;
 
@@ -41,7 +41,7 @@ console.log("x ** y =", x ** y);
 
 Đề bài: Tính toán các phép tính sau và phỏng đoán kết quả của console.log().
 
-```
+```javascript
 // equal operator
 console.log(2 == 2);
 console.log(2 == '2');
@@ -63,7 +63,7 @@ console.log(2 !== 2);
 
 Đề bài: Tính toán các phép tính sau và phỏng đoán kết quả của console.log().
 
-```
+```javascript
 // logical AND
 console.log(true && true);
 console.log(true && false);
@@ -79,7 +79,7 @@ console.log(!true);
 
 Đề bài: Tính toán các phép tính sau và phỏng đoán kết quả của console.log().
 
-```
+```javascript
 // logical AND
 console.log("hello" + "world");
 
@@ -93,7 +93,7 @@ console.log(a);
 
 Đề bài: Tính toán các phép tính sau và phỏng đoán kết quả của console.log().
 
-```
+```javascript
 // logical AND
 var value1 = "one";
 var value2 = "two";
@@ -109,7 +109,7 @@ var value2 = "two";
     - Đối với hình vuông lớn hơn, thì hình tròn là nội tiếp.
 
     <img src="06.hinh-tron.PNG"> 
-```
+```javascript
 // logical AND
 var value1 = "one";
 var value2 = "two";
@@ -135,7 +135,7 @@ var value2 = "two";
 Đề bài: Palindrome là từ khi đọc ngược cũng như đọc xuôi.
 
 Ví dụ:
-```
+```javascript
 palindrome("cicic") --> true
 
 palindrome("solos") --> true
@@ -151,7 +151,7 @@ palindrome("rotavator") --> true
 
 Đề bài: Phỏng đoán kết quả của console.log().
 
-```
+```javascript
 console.log(typeof "Le Van A");
 console.log(typeof 5000);
 console.log(typeof 5000.99);
@@ -167,7 +167,7 @@ console.log(typeof null);
 
 Đề bài: Phỏng đoán kết quả của console.log(), sau đó code lại để thành thạo (Sau sẽ dùng nhiều).    
 
-```
+```javascript
 var img = "https://cdn.daca.vn/media/blog/lap-trinh/js%20tips%20-%20m%E1%BB%99t%20s%E1%BB%91%20c%C3%A1ch%20vi%E1%BA%BFt%20js%20ng%E1%BA%AFn%20g%E1%BB%8Dn%20h%C6%A1n.png";
 var title = "JS TIPS - Một số cách viết JS ngắn gọn hơn";
 var desc = "Hôm nay Daca.vn gửi tới các bạn một số những tips để giúp bạn code JS một cách hiệu quả...";
@@ -194,7 +194,7 @@ console.log(string);
 
 Đề bài: Phỏng đoán kết quả của console.log().   
 
-```
+```javascript
 var a = "100";
 var b = 20;
 var c = true;
@@ -206,7 +206,7 @@ console.log(+a + b + c);
 
 Đề bài: Phỏng đoán kết quả của console.log(). 
 
-```
+```javascript
 var a = 10;
 
 a = a + 20;
@@ -229,7 +229,7 @@ console.log(a);
 
 Đề bài: Phỏng đoán kết quả của console.log().
 
-```
+```javascript
 var a = 10;
 var b = "20";
 var c = 80;
@@ -264,7 +264,7 @@ console.log("------------");
         - trunc() => Xóa số thập phân.
     - Phỏng đoán kết quả của console.log().
 
-```
+```javascript
 console.log(Math.round(99.2));
 
 console.log(Math.round(99.5));
@@ -288,7 +288,7 @@ console.log(Math.trunc(99.5));
 
 Đề bài: Phỏng đoán kết quả của console.log().
 
-```
+```javascript
 var theName = "  28Tech  ";
 
 console.log(theName);
@@ -312,7 +312,7 @@ console.log(theName.trim().charAt(5).toUpperCase());
 
 Đề bài: Phỏng đoán kết quả của console.log().
 
-```
+```javascript
 var a = "Daca.vn - Professional Web Design Services.";
 
 console.log(a.indexOf("Web"));
@@ -331,7 +331,7 @@ console.log(a.split("", 7));
 
 Đề bài: Phỏng đoán kết quả của console.log().
 
-```
+```javascript
 console.log(10 == "10");
 console.log(-100 == "-100");
 console.log(10 != "10");
@@ -355,7 +355,7 @@ console.log(typeof "Daca.vn" === typeof "Nam Dang");
 
 Đề bài: Phỏng đoán kết quả của console.log().
 
-```
+```javascript
 console.log(true);
 
 console.log(!true);
@@ -372,14 +372,14 @@ console.log((10 == "10") || (10 > 80) || (10 > 50));
 Đề bài: Phỏng đoán kết quả của console.log().
 
 **Ví dụ 1:**
-```
+```javascript
 const myFriends = ["Le Van A", "Nguyen Thi B", "Do Van C", "Dao Thi D"];
 
 myFriends.unshift("Vu Van E", "Nguyen Van F");
 console.log(myFriends);
 ```
 **Ví dụ 2:**
-```
+```javascript
 const myFriends = ["Le Van A", "Nguyen Thi B", "Do Van C", "Dao Thi D"];
 
 myFriends.push("Vu Van E", "Nguyen Van F");
@@ -387,7 +387,7 @@ console.log(myFriends);
 ```
 
 **Ví dụ 3:**
-```
+```javascript
 const myFriends = ["Le Van A", "Nguyen Thi B", "Do Van C", "Dao Thi D"];
 
 myFriends.push("Vu Van E", "Nguyen Van F");
@@ -395,7 +395,7 @@ console.log(myFriends);
 ```
 
 **Ví dụ 4:**
-```
+```javascript
 const myFriends = ["Le Van A", "Nguyen Thi B", "Do Van C", "Dao Thi D"];
 
 myFriends.pop();
@@ -406,7 +406,7 @@ console.log(myFriends);
 
 Đề bài: Viết một chương trình JavaScript để tìm vị trí đầu tiên và vị trí cuối cùng của một từ trong một chuỗi.
 
-```
+```javascript
 var chuoi = "JavaScript là một ngôn ngữ lập trình phổ biến. Đây là ngôn ngữ đứng đầu trong bảng xếp hạng 2023.";
 var tuTimKiem = "ngôn ngữ";
 ```
@@ -416,7 +416,7 @@ var tuTimKiem = "ngôn ngữ";
 Đề bài: Viết một hàm nhận một số phút và chuyển đổi nó thành giây.
 
 **Ví dụ:**
-```
+```javascript
 convert(5) ➞ 300
 
 convert(3) ➞ 180
@@ -431,7 +431,7 @@ convert(2) ➞ 120
 <img src="21.dientichtamgiac.PNG">
 
 **Ví dụ:**
-```
+```javascript
 triArea(3, 2) ➞ 3
 
 triArea(7, 4) ➞ 14
@@ -444,7 +444,7 @@ triArea(10, 10) ➞ 50
 Đề bài: Viết một hàm tìm phạm vi lớn nhất của cạnh thứ ba của một tam giác, trong đó độ dài các cạnh đều là số nguyên.
 
 **Ví dụ:**
-```
+```javascript
 nextEdge(8, 10) ➞ 17
 
 nextEdge(5, 7) ➞ 11
@@ -452,7 +452,7 @@ nextEdge(5, 7) ➞ 11
 nextEdge(9, 2) ➞ 10
 ```
 **Lưu ý:**
-```
+```javascript
     - (cạnh1 + cạnh2) - 1 = phạm vi lớn nhất của cạnh thứ ba.
     - Độ dài các cạnh của tam giác là số nguyên dương.
 ```
@@ -462,7 +462,7 @@ nextEdge(9, 2) ➞ 10
 Đề bài: Cho một đa giác đều có n cạnh, trả về tổng các góc của đa giác (tính bằng độ).
 
 **Ví dụ:**
-```
+```javascript
 sumPolygon(3) ➞ 180
 
 sumPolygon(4) ➞ 360
@@ -470,7 +470,7 @@ sumPolygon(4) ➞ 360
 sumPolygon(6) ➞ 720
 ```
 **Lưu ý:**
-```
+```javascript
     - n luôn lớn hơn 2.
     - Công thức (n−2)×180 cho tổng của tất cả các góc của một đa giác n cạnh.
 ```
@@ -485,7 +485,7 @@ sumPolygon(6) ➞ 720
         - Thất bại không được điểm nào.
 
 **Ví dụ:**
-```
+```javascript
 footballPoints(3, 4, 2) ➞ 13
 // Theo thứ tự thắng, hòa, thua
 
@@ -500,7 +500,7 @@ footballPoints(0, 0, 1) ➞ 0
     - Tạo một hàm trả về số khung hình được hiển thị trong một số phút nhất định cho một FPS (khung hình/giây) cụ thể.
 
 **Ví dụ:**
-```
+```javascript
 frames(1, 1) ➞ 60
 // 1 là số phút, 1 là số khung hình/giây
 
@@ -516,7 +516,7 @@ frames(10, 25) ➞ 15000
 - Đề bài: Tạo một hàm tính diện tích của hình chữ nhật. Nếu các đối số không hợp lệ, hàm phải trả về -1.
 
 **Ví dụ:**
-```
+```javascript
 area(3, 4) ➞ 12
 
 area(10, 11) ➞ 110
@@ -537,7 +537,7 @@ area(0, 2) ➞ -1
 
         <img src="27.rubik.PNG">
 **Ví dụ:**
-```
+```javascript
 howManyStickers(1) ➞ 6
 
 howManyStickers(2) ➞ 24
@@ -546,7 +546,7 @@ howManyStickers(3) ➞ 54
 ```
 
 **Ghi chú**
-```
+```javascript
     - Một khối Rubik có 6 mặt.
     - Mỗi mặt có n * n nhãn dán.
 ```
@@ -559,7 +559,7 @@ howManyStickers(3) ➞ 54
     - Viết một hàm nhập vào số tiền thu nhập sau đó tính toán và trả về một đối tượng để thể hiện số tiền một người cần phải chi tiêu cho nhu cầu cần thiết, sở thích cá nhân và tiết kiệm.
 
 **Ví dụ:**
-```
+```javascript
 fiftyThirtyTwenty(10000)
 ➞ { "Needs": 5000, "Hobby": 3000, "Savings": 2000 }
 
@@ -578,7 +578,7 @@ fiftyThirtyTwenty(13450)
     <img src="29.star.PNG">
     
 **Ví dụ:**
-```
+```javascript
 starNumber(2) ➞ 13
 // n = 2
 // số "sao" thứ 2 = 13
@@ -593,7 +593,7 @@ starNumber(5) ➞ 121
 ```
 
 **Ghi chú:**
-```
+```javascript
     - n sẽ luôn là một số nguyên dương.
     - Công thức tính số sao thứ n có thể được biểu diễn bởi công thức: **6n(n-1) + 1**.
 ```
@@ -608,7 +608,7 @@ starNumber(5) ➞ 121
     - Làm tròn đến 2 chữ số sau dấu thập phân.
 
 **Ví dụ:**
-```
+```javascript
 Thứ tự tham số chuyền vào: compoundInterest(p, t, r, n)
 
 compoundInterest(10000, 10, 0.06, 12) ➞ 18193.97
@@ -633,7 +633,7 @@ compoundInterest(100000, 20, 0.15, 365) ➞ 2007316.26
 
     - Nông dân đã đếm số lượng động vật của mình và cung cấp cho bạn số lượng của từng loài. Bạn cần viết một hàm để trả về tổng số chân của tất cả các loài động vật.
 
-```
+```javascript
 animals(2, 3, 5) ➞ 36
 
 animals(1, 2, 3) ➞ 22
@@ -642,7 +642,7 @@ animals(5, 2, 8) ➞ 50
 ```
 
 **Ghi chú:**
-```
+```javascript
     - Thứ tự của các loài động vật được truyền vào là animals(chickens, cows, pigs).
     - Nông dân muốn biết tổng số chân và không phải tổng số động vật.
 ```
@@ -650,7 +650,7 @@ animals(5, 2, 8) ➞ 50
 ### Câu 32: Chuyển đổi tuổi sang ngày
 - Đề bài: Tạo một hàm nhận vào tuổi của một người tính bằng năm và trả về tuổi tính bằng ngày.
 
-```
+```javascript
 calcAge(65) ➞ 23725
 
 calcAge(0) ➞ 0
@@ -659,7 +659,7 @@ calcAge(20) ➞ 7300
 ```
 
 **Ghi chú:**
-```
+```javascript
     Trong bài toán này, 1 năm có 365 ngày.
 ```
 
@@ -675,7 +675,7 @@ calcAge(20) ➞ 7300
 
     - Trả về tổng số người khi tàu vũ trụ hoàn thành.   
 
-```
+```javascript
 futurePeople(population, n)
 
 futurePeople(256, 2) ➞ 976
@@ -686,7 +686,7 @@ futurePeople(5240, 3) ➞ 6320
 ```
 
 **Ghi chú:**
-```
+```javascript
     Số phận của nhân loại nằm trong tính toán của bạn.
 ```
 
@@ -698,7 +698,7 @@ futurePeople(5240, 3) ➞ 6320
 
     - Viết một hàm nhận vào một số n và trả về số lượng hộp đã xếp chồng trong một mô hình có chiều cao n cấp độ (Đếm tất cả các hộp: thể nhìn thấy và không nhìn thấy).
 
-```
+```javascript
 stackBoxes(1) ➞ 1
 
 stackBoxes(2) ➞ 4
@@ -707,7 +707,7 @@ stackBoxes(0) ➞ 0
 ```
 
 **Ghi chú:**
-```
+```javascript
     n là một số nguyên dương.
 ```
 
@@ -715,7 +715,7 @@ stackBoxes(0) ➞ 0
 - Đề bài:
     - Viết một hàm làm giật từ như khi ai đó gặp khó khăn trong việc đọc nó. Hai ký tự đầu tiên được lặp lại hai lần với dấu ba chấm ... và khoảng trắng sau mỗi ký tự, và sau đó là từ được phát âm.
 
-```
+```javascript
 stutter("Bạn có khỏe không?") ➞ "Bạ... Bạ... Bạn có khỏe không?"
 
 stutter("Tôi khỏe.") ➞ "Tô... Tô... Tôi khỏe."
